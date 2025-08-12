@@ -23,4 +23,4 @@ COPY . .
 # Fix: Rebuild native dependencies for Alpine Linux before building
 RUN npm rebuild && npm run build
 
-CMD ["npm", "run", "docker-start"]
+CMD ["npm", "start"]
